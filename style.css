@@ -122,13 +122,19 @@ header a {
     padding-top: 15px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
+        transition: 0.2s ease-in-out;
+}
+
+.right-section .input-group input:focus {
+    border-bottom: 2px solid rgb(131, 131, 218);
+
 }
 .right-section .input-group label {
     color: rgb(80, 70, 70);
     font-family: cascadia code;
     position: absolute;
-    top: 10px;
-    transition: 0.4s ease-in-out;
+    top: -8px;
+    transition: 0.4s ease;
 }
 
 .right-section .submit-section .submit-btn {
@@ -149,6 +155,7 @@ header a {
 .right-section .input-group input:focus ~ label {
     color: rgb(117, 117, 236);
     top: -20px;
+    
 }
 
 footer{
